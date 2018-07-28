@@ -1,0 +1,19 @@
+a{
+    color: black;
+    font-size: 25px;
+    background: blue;
+
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+a:hover{
+    background: olivedrab;
+    font-size: 35px;
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2); 
+}

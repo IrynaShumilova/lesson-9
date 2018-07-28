@@ -1,0 +1,16 @@
+#img1{
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg); 
+    transform: rotate(25deg);
+}
+#img2{
+    -moz-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg); 
+    transform: rotate(120deg);
+}
+#img3 img:hover{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
